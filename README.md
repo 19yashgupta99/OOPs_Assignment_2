@@ -13,12 +13,18 @@ dequeue method will remove the first element from the queue(having concrete defi
 So, according to above problem I created  following scala file:-
 
 *A Trait class(Queue.scala) to implement the methods(dequeue and enqueue):-
+
 		where:
+		
 			-enqueue is an abstract method
+			
 			-dequeue is an concrete method.
 
 *Two scala classes(DoubleQueue, SquareQueue) in a module(classes) both class extend the Queue trait:-
+		
 		where:
+		
 			-DoubleQueue enqueues the element after doubling them
+			
 			-SquareQueue enqueues the element after squaring them
 
